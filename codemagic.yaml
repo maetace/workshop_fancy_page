@@ -1,0 +1,9 @@
+scripts:
+  - name: Clean old builds
+    script: flutter clean
+
+  - name: Get dependencies
+    script: flutter pub get
+
+  - name: Build web
+    script: flutter build web
